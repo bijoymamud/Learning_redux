@@ -1,3 +1,4 @@
+import Counter from "./Components/Counter/Counter"
 import Home from "./Pages/Home"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
    
       <Home/>
+      <Counter/>
 
     </div>
   )
