@@ -16,8 +16,8 @@ const Counter = () => {
             <button onClick={()=>dispatch(decrement())}>Decrement</button>
             <br />
            
-                <div className="mt-2">
-                <button  onClick={()=>dispatch(incrementByAmount(5))}>Increment By Amount</button>
+                <div className="pt-2">
+                <button className="text-3xl"  onClick={()=>dispatch(incrementByAmount(5))}>Increment By Amount</button>
                 </div>
             
         </div>
